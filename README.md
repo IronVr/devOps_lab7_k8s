@@ -1,0 +1,1 @@
+# devOps_lab7_k8s
