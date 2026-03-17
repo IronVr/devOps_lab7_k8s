@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:5000"  # проброс внешнего порта 8000 в контейнер на 5000
+
+  redis:
+    image: "redis:alpine"
